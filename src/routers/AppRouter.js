@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import AboutPage from "../pages/AboutPage";
+import { CategoriesPage } from "../pages/CategoriesPage";
 import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
 import NotFoundPage from "../pages/NotFoundPage";
@@ -15,6 +16,7 @@ export const AppRouter = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/profile/:username" element={<ProfilePage />} />
+        <Route path="/categories" element={<CategoriesPage />} />
 
         <Route exact path="/" element={<HomePage />} />
         <Route path="*" element={<NotFoundPage />} />

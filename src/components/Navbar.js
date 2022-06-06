@@ -19,6 +19,11 @@ const Navbar = () => {
             Contact
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/categories" activeclassname="active">
+            Categories
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
