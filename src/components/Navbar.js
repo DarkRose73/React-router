@@ -24,6 +24,26 @@ const Navbar = () => {
             Categories
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/login" activeclassname="active">
+            Login
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/register" activeclassname="active">
+            Register
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/dashboard" activeclassname="active">
+            Dashboard
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/payments" activeclassname="active">
+            Payments
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
